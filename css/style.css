@@ -255,7 +255,8 @@ body{
 
 .about .row .image img{
   border-radius:50px;
-  width: 70vw;
+  width: 50vw;
+  margin-right: 5rem;
 }
 
 .about .row .content h3{
@@ -652,8 +653,9 @@ body{
   }
 
   .service .row .image img{
-    border-radius: 25px;
-    width: 70vw;
+    border-radius: 80px;
+    width: 100vw;
+    margin-top: 5px;
   }
 
   .service .row .content{
