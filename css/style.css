@@ -88,7 +88,7 @@ body{
   position: fixed;
   top:0; left: 0;
   z-index: 100;
-  background-color:rgb(12, 23, 135);
+  background-color:var(--color);
 }
 
 .header .logo{
@@ -255,7 +255,7 @@ body{
 
 .about .row .image img{
   border-radius:50px;
-  width: 50vw;
+  width: 70vw;
 }
 
 .about .row .content h3{
@@ -640,7 +640,7 @@ body{
 
   .about .row .image img{
     border-radius: 50px;
-    width: 50vw;
+    width: 70vw;
   }
 
   .service .row{
@@ -652,8 +652,8 @@ body{
   }
 
   .service .row .image img{
-    border-radius: 3px;
-    width: 100vw;
+    border-radius: 25px;
+    width: 70vw;
   }
 
   .service .row .content{
