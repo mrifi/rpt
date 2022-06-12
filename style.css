@@ -190,6 +190,7 @@ body{
   animation:waves 10s linear infinite;
 }
 
+
 .home .wave2{
   animation-direction: reverse;
   opacity: .2;
@@ -253,6 +254,7 @@ body{
 }
 
 .about .row .image img{
+  border-radius:50px;
   width: 50vw;
 }
 
@@ -305,8 +307,8 @@ body{
 }
 
 .service .row .image img{
-  width:auto;
-  height:55vh;
+  border-radius:50px;
+  height:50vh;
 }
 
 .service .row .content{
@@ -637,7 +639,8 @@ body{
   }
 
   .about .row .image img{
-    width: 100vw;
+    border-radius: 50px;
+    width: 50vw;
   }
 
   .service .row{
@@ -649,6 +652,7 @@ body{
   }
 
   .service .row .image img{
+    border-radius: 3px;
     width: 100vw;
   }
 
