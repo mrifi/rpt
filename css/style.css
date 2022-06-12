@@ -641,7 +641,8 @@ body{
 
   .about .row .image img{
     border-radius: 50px;
-    width: 70vw;
+    width: 100vw;
+    margin: auto;
   }
 
   .service .row{
