@@ -62,6 +62,7 @@ hr {
 
 .section-title h1 {
 	font-size: 24px;
+  color: var(--black-color);
 }
 
 .section-title {
@@ -347,7 +348,7 @@ about section
 ========================================================================== */
 #about {
   background: var(--yellow-color) ;
-  color: var(--white-color);
+  color: var(--black-color);
 }
 .nav-tabs {
   margin-top: 20px;
@@ -678,7 +679,7 @@ footer p {
 }
 .social-icon li a {
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.09);
-  color: #808080;
+  color: #000000;
   font-size: 20px;
   width: 56px;
   height: 56px;
@@ -714,4 +715,9 @@ media quires for mobile
   #home h3 {
     font-size: 12px;
   }
+}
+
+.incorrecto {
+  text-decoration:line-through;
+  color: red;
 }
